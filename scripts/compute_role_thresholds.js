@@ -68,19 +68,12 @@ function buildHeroToRoleMap(data) {
 }
 
 function getRoleFitnessFor(heroIndex, role, data) {
-  // Prefer D2PT per-role if available, else NW20, else NW10, else LaneAdv (can be negative)
+  // Strictly use D2PT per-role as the fitness for assignment
   const d2ptArr = data.rolesD2pt && data.rolesD2pt[role];
-  const d2pt = (d2ptArr && Array.isArray(d2ptArr) && d2ptArr[heroIndex] != null) ? Number(d2ptArr[heroIndex]) : NaN;
-  if (Number.isFinite(d2pt)) return d2pt;
-  const nw20Arr = data.roles && data.roles[role] && data.roles[role].nw20;
-  const nw20 = (nw20Arr && Array.isArray(nw20Arr) && nw20Arr[heroIndex] != null) ? Number(nw20Arr[heroIndex]) : NaN;
-  if (Number.isFinite(nw20)) return nw20;
-  const nw10Arr = data.roles && data.roles[role] && data.roles[role].nw10;
-  const nw10 = (nw10Arr && Array.isArray(nw10Arr) && nw10Arr[heroIndex] != null) ? Number(nw10Arr[heroIndex]) : NaN;
-  if (Number.isFinite(nw10)) return nw10;
-  const laArr = data.roles && data.roles[role] && data.roles[role].laneadv;
-  const la = (laArr && Array.isArray(laArr) && laArr[heroIndex] != null) ? Number(laArr[heroIndex]) : NaN;
-  return Number.isFinite(la) ? la : -Infinity;
+  const raw = d2ptArr && Array.isArray(d2ptArr) ? d2ptArr[heroIndex] : undefined;
+  const v = Number(raw);
+  // Treat missing/null as -Infinity to avoid selecting that role for this hero
+  return Number.isFinite(v) ? v : -Infinity;
 }
 
 function bestRoleAssignment(teamHeroIndices, data) {
@@ -133,10 +126,8 @@ function getKdaFor(heroIndex, role, data) {
 
 function getD2ptFor(heroIndex, role, data) {
   const arrRole = data.rolesD2pt && data.rolesD2pt[role];
-  const byRole = coerceNumber(arrRole && arrRole[heroIndex], NaN);
-  if (Number.isFinite(byRole)) return byRole;
-  const flat = data.heroesD2pt && data.heroesD2pt[heroIndex];
-  return coerceNumber(flat, 0);
+  const byRole = arrRole && Array.isArray(arrRole) ? Number(arrRole[heroIndex]) : NaN;
+  return Number.isFinite(byRole) ? byRole : 0;
 }
 
 function getNw10For(heroIndex, role, data) {
@@ -178,13 +169,13 @@ function main() {
   const { header, rows } = readCsv(detailedPath);
   const col = new Map(header.map((h, i) => [h, i]));
 
-  // Threshold series
+  // Threshold series (as per user's request)
   const deltaThr = Array.from({ length: 10 }, (_, i) => (i + 1) * 5); // 5..50
   const kdaThr = [1, 2, 3, 4, 5, 6];
   const d2ptThr = Array.from({ length: 10 }, (_, i) => (i + 1) * 500); // 500..5000
   const nw10Thr = Array.from({ length: 25 }, (_, i) => (i + 1) * 200); // 200..5000
   const nw20Thr = Array.from({ length: 20 }, (_, i) => (i + 1) * 500); // 500..10000
-  const laneThr = Array.from({ length: 30 }, (_, i) => (i + 1) * 2); // 2..60
+  const laneThr = Array.from({ length: 10 }, (_, i) => (i + 1) * 2); // 2..20
 
   function initStats(thresholds) {
     const m = new Map();
@@ -194,6 +185,15 @@ function main() {
 
   const stats = {
     delta: initStats(deltaThr),
+    kda: initStats(kdaThr),
+    d2pt: initStats(d2ptThr),
+    nw10: initStats(nw10Thr),
+    nw20: initStats(nw20Thr),
+    lane: initStats(laneThr),
+  };
+
+  // Team-level threshold accuracies (per side independently)
+  const statsTeam = {
     kda: initStats(kdaThr),
     d2pt: initStats(d2ptThr),
     nw10: initStats(nw10Thr),
@@ -211,7 +211,11 @@ function main() {
     const rIdx = rHeroes.map((h) => nameToIndex.get(h)).filter((x) => x !== undefined);
     if (dIdx.length !== 5 || rIdx.length !== 5) continue;
 
-    // Sum metrics per team using per-hero most-popular role mapping
+    // Assign exactly 1 of each role per side using D2PT fitness
+    const roleMapR = bestRoleAssignment(rIdx, data);
+    const roleMapD = bestRoleAssignment(dIdx, data);
+
+    // Sum metrics per team using assigned roles (D2PT per-role strictly for D2PT sums)
     let sumKdaR = 0, sumKdaD = 0;
     let sumD2ptr = 0, sumD2ptd = 0;
     let sumNw10r = 0, sumNw10d = 0;
@@ -219,7 +223,7 @@ function main() {
     let sumLaneR = 0, sumLaneD = 0;
 
     for (const idx of rIdx) {
-      const role = heroToRole.get(idx) || "carry";
+      const role = roleMapR.get(idx) || "carry";
       sumKdaR += getKdaFor(idx, role, data);
       sumD2ptr += getD2ptFor(idx, role, data);
       sumNw10r += getNw10For(idx, role, data);
@@ -227,7 +231,7 @@ function main() {
       sumLaneR += getLaneAdvFor(idx, role, data);
     }
     for (const idx of dIdx) {
-      const role = heroToRole.get(idx) || "carry";
+      const role = roleMapD.get(idx) || "carry";
       sumKdaD += getKdaFor(idx, role, data);
       sumD2ptd += getD2ptFor(idx, role, data);
       sumNw10d += getNw10For(idx, role, data);
@@ -271,6 +275,27 @@ function main() {
     updateSeries(stats.nw10, nw10Thr, nw10Delta, nw10Delta >= 0 ? radiantWin : !radiantWin);
     updateSeries(stats.nw20, nw20Thr, nw20Delta, nw20Delta >= 0 ? radiantWin : !radiantWin);
     updateSeries(stats.lane, laneThr, laneDelta, laneDelta >= 0 ? radiantWin : !radiantWin);
+
+    // Team-level: evaluate each side independently (radiant team sum vs threshold, dire team sum vs threshold)
+    function updateTeam(series, thresholds, teamSum, teamWon) {
+      for (const t of thresholds) {
+        if (teamSum >= t) {
+          const s = series.get(t);
+          s.games += 1;
+          if (teamWon) s.wins += 1;
+        }
+      }
+    }
+    updateTeam(statsTeam.kda, kdaThr, sumKdaR, radiantWin);
+    updateTeam(statsTeam.kda, kdaThr, sumKdaD, !radiantWin);
+    updateTeam(statsTeam.d2pt, d2ptThr, sumD2ptr, radiantWin);
+    updateTeam(statsTeam.d2pt, d2ptThr, sumD2ptd, !radiantWin);
+    updateTeam(statsTeam.nw10, nw10Thr, sumNw10r, radiantWin);
+    updateTeam(statsTeam.nw10, nw10Thr, sumNw10d, !radiantWin);
+    updateTeam(statsTeam.nw20, nw20Thr, sumNw20r, radiantWin);
+    updateTeam(statsTeam.nw20, nw20Thr, sumNw20d, !radiantWin);
+    updateTeam(statsTeam.lane, laneThr, sumLaneR, radiantWin);
+    updateTeam(statsTeam.lane, laneThr, sumLaneD, !radiantWin);
   }
 
   // Write outputs
@@ -293,6 +318,22 @@ function main() {
 
   const outSummary = path.join(outDir, "role_thresholds_summary.csv");
   fs.writeFileSync(outSummary, lines.join("\n") + "\n", "utf8");
+
+  // Team-level output
+  const linesTeam = ["metric,threshold,games,accuracy"]; 
+  function pushSeriesTeam(name, series, thresholds) {
+    for (const t of thresholds) {
+      const s = series.get(t) || { games: 0, wins: 0 };
+      const acc = s.games ? (s.wins / s.games) : 0;
+      linesTeam.push(`${name},${t},${s.games},${acc.toFixed(4)}`);
+    }
+  }
+  pushSeriesTeam("kda_team", statsTeam.kda, kdaThr);
+  pushSeriesTeam("d2pt_team", statsTeam.d2pt, d2ptThr);
+  pushSeriesTeam("nw10_team", statsTeam.nw10, nw10Thr);
+  pushSeriesTeam("nw20_team", statsTeam.nw20, nw20Thr);
+  pushSeriesTeam("laneadv_team", statsTeam.lane, laneThr);
+  fs.writeFileSync(path.join(outDir, "role_thresholds_team_summary.csv"), linesTeam.join("\n") + "\n", "utf8");
 
   console.log(`Wrote ${outSummary}`);
 }

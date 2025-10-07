@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSV Table Viewer (Sortable)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+      body { padding: 20px; }
+      table { font-size: 12px; }
+      th { cursor: pointer; white-space: nowrap; }
+      .controls { margin-bottom: 15px; }
+      .hint { color: #777; font-size: 12px; }
+      .sticky { position: sticky; top: 0; background: #fff; }
+      #table-wrap { max-height: 70vh; overflow: auto; border: 1px solid #ddd; }
+      .sorted-asc:after { content: " \25B2"; }
+      .sorted-desc:after { content: " \25BC"; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h3>CSV Table Viewer <small class="hint">Click headers to sort ascending/descending</small></h3>
+      <div class="row controls">
+        <div class="col-sm-6">
+          <label>Select CSV (relative to this file):</label>
+          <select id="csv-select" class="form-control">
+            <option value="out/streaks_summary.csv">out/streaks_summary.csv</option>
+            <option value="out/matches.csv">out/matches.csv</option>
+            <option value="out/matches_detailed.csv">out/matches_detailed.csv</option>
+            <option value="out/combos.csv">out/combos.csv</option>
+            <option value="out/combos_by_delta_thresholds.csv">out/combos_by_delta_thresholds.csv</option>
+            <option value="out/threshold_pairs.csv">out/threshold_pairs.csv</option>
+            <option value="out/matches_two_ge5.csv">out/matches_two_ge5.csv</option>
+            <option value="out/matches_two_ge4.csv">out/matches_two_ge4.csv</option>
+            <option value="out/two_ge5_summary.csv">out/two_ge5_summary.csv</option>
+            <option value="out/two_ge4_summary.csv">out/two_ge4_summary.csv</option>
+            <option value="out/hero_adv_thresholds.csv">out/hero_adv_thresholds.csv</option>
+            <option value="out/delta_bins.csv">out/delta_bins.csv</option>
+            <option value="out/delta_thresholds.csv">out/delta_thresholds.csv</option>
+            <option value="out/thresholds_combined.csv">out/thresholds_combined.csv</option>
+            <option value="out/single_hero_thresholds.csv">out/single_hero_thresholds.csv</option>
+          </select>
+        </div>
+        <div class="col-sm-6">
+          <label>Or enter path:</label>
+          <div class="input-group">
+            <input id="csv-path" class="form-control" placeholder="e.g., out/custom.csv">
+            <span class="input-group-btn"><button id="load-btn" class="btn btn-primary">Load</button></span>
+          </div>
+          <div class="hint">If opened as file://, serve via a simple HTTP server (e.g., <code>python3 -m http.server</code>) for fetch to work.</div>
+        </div>
+      </div>
+
+      <div id="meta" class="hint"></div>
+      <div id="table-wrap" class="table-responsive">
+        <table id="tbl" class="table table-striped table-bordered">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      (function(){
+        var data = { header: [], rows: [] };
+        var sortState = { col: -1, dir: 1 };
+
+        function parseCSV(text){
+          // Simple CSV parser (no quoted commas). Good for our generated CSVs.
+          var lines = text.replace(/\r/g,'').split('\n').filter(Boolean);
+          if (!lines.length) return { header: [], rows: [] };
+          var header = lines.shift().split(',');
+          var rows = lines.map(function(l){ return l.split(','); });
+          return { header: header, rows: rows };
+        }
+
+        function isNumericCol(colIdx){
+          var cnt=0, num=0; for (var i=0;i<data.rows.length && cnt<50;i++){ var v=data.rows[i][colIdx]; cnt++; if (v!=='' && !isNaN(+v)) num++; }
+          return num/cnt > 0.7;
+        }
+
+        function render(){
+          var thead = document.querySelector('#tbl thead');
+          var tbody = document.querySelector('#tbl tbody');
+          thead.innerHTML=''; tbody.innerHTML='';
+          if (!data.header.length) return;
+          var tr = document.createElement('tr');
+          data.header.forEach(function(h, idx){
+            var th = document.createElement('th'); th.textContent = h; th.className='sticky';
+            th.addEventListener('click', function(){ sortBy(idx); });
+            if (sortState.col === idx) th.classList.add(sortState.dir>0? 'sorted-asc':'sorted-desc');
+            tr.appendChild(th);
+          });
+          thead.appendChild(tr);
+          var frag = document.createDocumentFragment();
+          data.rows.forEach(function(r){
+            var tr = document.createElement('tr');
+            for (var i=0;i<data.header.length;i++){ var td=document.createElement('td'); td.textContent = r[i]||''; tr.appendChild(td); }
+            frag.appendChild(tr);
+          });
+          tbody.appendChild(frag);
+          document.getElementById('meta').textContent = 'Rows: '+data.rows.length+' | Columns: '+data.header.length + (sortState.col>=0? (' | Sorted by: '+data.header[sortState.col]+' ('+(sortState.dir>0?'asc':'desc')+')'):'');
+        }
+
+        function sortBy(colIdx){
+          if (sortState.col === colIdx) sortState.dir *= -1; else { sortState.col = colIdx; sortState.dir = 1; }
+          var numeric = isNumericCol(colIdx);
+          data.rows.sort(function(a,b){
+            var va = a[colIdx]||''; var vb = b[colIdx]||'';
+            if (numeric){ va = parseFloat(va); vb = parseFloat(vb); if (isNaN(va)) va = -Infinity; if (isNaN(vb)) vb = -Infinity; }
+            if (va<vb) return -1*sortState.dir; if (va>vb) return 1*sortState.dir; return 0;
+          });
+          render();
+        }
+
+        function loadCSV(path){
+          fetch(path, { cache: 'no-cache' })
+            .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
+            .then(function(txt){ data = parseCSV(txt); sortState={col:-1,dir:1}; render(); })
+            .catch(function(e){ alert('Failed to load '+path+'\n'+e); });
+        }
+
+        document.getElementById('csv-select').addEventListener('change', function(){ loadCSV(this.value); document.getElementById('csv-path').value=this.value; });
+        document.getElementById('load-btn').addEventListener('click', function(){ var p=document.getElementById('csv-path').value.trim(); if(p) loadCSV(p); });
+
+        // Init
+        var initial = document.getElementById('csv-select').value; document.getElementById('csv-path').value=initial; loadCSV(initial);
+      })();
+    </script>
+  </body>
+  </html>
+

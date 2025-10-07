@@ -66998,5 +66998,6642 @@
         "laneRole": 3
       }
     ]
+  },
+  "8442618358": {
+    "matchId": 8442618358,
+    "radiantRoles": [
+      {
+        "heroId": 65,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 3,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 100,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442586322": {
+    "matchId": 8442586322,
+    "radiantRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 77,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 138,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 68,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442558963": {
+    "matchId": 8442558963,
+    "radiantRoles": [
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 88,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442532808": {
+    "matchId": 8442532808,
+    "radiantRoles": [
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 136,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 60,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442794602": {
+    "matchId": 8442794602,
+    "radiantRoles": [
+      {
+        "heroId": 119,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 97,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 26,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 88,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442649608": {
+    "matchId": 8442649608,
+    "radiantRoles": [
+      {
+        "heroId": 56,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 138,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442715710": {
+    "matchId": 8442715710,
+    "radiantRoles": [
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 99,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 123,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 36,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 71,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442524903": {
+    "matchId": 8442524903,
+    "radiantRoles": [
+      {
+        "heroId": 7,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 121,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 71,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442566857": {
+    "matchId": 8442566857,
+    "radiantRoles": [
+      {
+        "heroId": 34,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 95,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 12,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442461911": {
+    "matchId": 8442461911,
+    "radiantRoles": [
+      {
+        "heroId": 33,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 27,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 32,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 121,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 19,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 103,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442489319": {
+    "matchId": 8442489319,
+    "radiantRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 20,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 33,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 104,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 90,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442465828": {
+    "matchId": 8442465828,
+    "radiantRoles": [
+      {
+        "heroId": 111,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 50,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 20,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 23,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 105,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442519140": {
+    "matchId": 8442519140,
+    "radiantRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 65,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442383650": {
+    "matchId": 8442383650,
+    "radiantRoles": [
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 10,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 97,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 110,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 9,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 119,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442381377": {
+    "matchId": 8442381377,
+    "radiantRoles": [
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 16,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 68,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 45,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442461099": {
+    "matchId": 8442461099,
+    "radiantRoles": [
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 23,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 41,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 86,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442362792": {
+    "matchId": 8442362792,
+    "radiantRoles": [
+      {
+        "heroId": 123,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 16,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 15,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 111,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 81,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 20,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442387453": {
+    "matchId": 8442387453,
+    "radiantRoles": [
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 113,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 135,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 121,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442385311": {
+    "matchId": 8442385311,
+    "radiantRoles": [
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 51,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 25,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 36,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442381416": {
+    "matchId": 8442381416,
+    "radiantRoles": [
+      {
+        "heroId": 74,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 95,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 97,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 19,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 137,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 119,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442408480": {
+    "matchId": 8442408480,
+    "radiantRoles": [
+      {
+        "heroId": 104,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 33,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 29,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 129,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 20,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442407614": {
+    "matchId": 8442407614,
+    "radiantRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 136,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 6,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 38,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442434707": {
+    "matchId": 8442434707,
+    "radiantRoles": [
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 23,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 112,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 66,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442360020": {
+    "matchId": 8442360020,
+    "radiantRoles": [
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 20,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 92,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 74,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 15,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442410398": {
+    "matchId": 8442410398,
+    "radiantRoles": [
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 25,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 10,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 71,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442420781": {
+    "matchId": 8442420781,
+    "radiantRoles": [
+      {
+        "heroId": 82,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 99,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 63,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 17,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 3,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 60,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442435495": {
+    "matchId": 8442435495,
+    "radiantRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 29,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442337350": {
+    "matchId": 8442337350,
+    "radiantRoles": [
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 90,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 55,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442433680": {
+    "matchId": 8442433680,
+    "radiantRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 37,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 28,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 33,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442420396": {
+    "matchId": 8442420396,
+    "radiantRoles": [
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 136,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 3,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 128,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442358323": {
+    "matchId": 8442358323,
+    "radiantRoles": [
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 123,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 90,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 55,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442283406": {
+    "matchId": 8442283406,
+    "radiantRoles": [
+      {
+        "heroId": 89,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 40,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 49,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442461446": {
+    "matchId": 8442461446,
+    "radiantRoles": [
+      {
+        "heroId": 136,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 79,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 49,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 9,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 23,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 28,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 51,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442220958": {
+    "matchId": 8442220958,
+    "radiantRoles": [
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 46,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442335752": {
+    "matchId": 8442335752,
+    "radiantRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 114,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 50,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 57,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 19,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 27,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442343970": {
+    "matchId": 8442343970,
+    "radiantRoles": [
+      {
+        "heroId": 30,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 3,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 39,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 27,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442335286": {
+    "matchId": 8442335286,
+    "radiantRoles": [
+      {
+        "heroId": 31,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 6,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 111,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 112,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442087767": {
+    "matchId": 8442087767,
+    "radiantRoles": [
+      {
+        "heroId": 138,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 23,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 22,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 45,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 51,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441966910": {
+    "matchId": 8441966910,
+    "radiantRoles": [
+      {
+        "heroId": 26,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 138,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 64,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 108,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 17,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442056090": {
+    "matchId": 8442056090,
+    "radiantRoles": [
+      {
+        "heroId": 44,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 75,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 102,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 138,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442150492": {
+    "matchId": 8442150492,
+    "radiantRoles": [
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 79,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442091039": {
+    "matchId": 8442091039,
+    "radiantRoles": [
+      {
+        "heroId": 35,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 113,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 49,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441918629": {
+    "matchId": 8441918629,
+    "radiantRoles": [
+      {
+        "heroId": 67,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 88,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 107,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441905260": {
+    "matchId": 8441905260,
+    "radiantRoles": [
+      {
+        "heroId": 67,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 58,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 45,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 51,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442262809": {
+    "matchId": 8442262809,
+    "radiantRoles": [
+      {
+        "heroId": 30,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 23,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 9,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442120887": {
+    "matchId": 8442120887,
+    "radiantRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 17,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 19,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 45,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 59,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442201486": {
+    "matchId": 8442201486,
+    "radiantRoles": [
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 25,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 9,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 26,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441828917": {
+    "matchId": 8441828917,
+    "radiantRoles": [
+      {
+        "heroId": 27,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 46,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 77,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 84,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 79,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442018136": {
+    "matchId": 8442018136,
+    "radiantRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441622408": {
+    "matchId": 8441622408,
+    "radiantRoles": [
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 98,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 105,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 136,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441634439": {
+    "matchId": 8441634439,
+    "radiantRoles": [
+      {
+        "heroId": 27,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 55,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 19,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 15,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 75,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442041317": {
+    "matchId": 8442041317,
+    "radiantRoles": [
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 50,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 123,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 114,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 136,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 109,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8442179353": {
+    "matchId": 8442179353,
+    "radiantRoles": [
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 114,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 36,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 102,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 20,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441677990": {
+    "matchId": 8441677990,
+    "radiantRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 3,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 86,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 137,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 62,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441534267": {
+    "matchId": 8441534267,
+    "radiantRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 102,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 55,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441949078": {
+    "matchId": 8441949078,
+    "radiantRoles": [
+      {
+        "heroId": 106,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 23,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 45,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 87,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441524396": {
+    "matchId": 8441524396,
+    "radiantRoles": [
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 39,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 71,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441872396": {
+    "matchId": 8441872396,
+    "radiantRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 92,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 71,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 3,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441867449": {
+    "matchId": 8441867449,
+    "radiantRoles": [
+      {
+        "heroId": 126,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 69,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 79,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441749867": {
+    "matchId": 8441749867,
+    "radiantRoles": [
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 86,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 26,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 97,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 109,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441483742": {
+    "matchId": 8441483742,
+    "radiantRoles": [
+      {
+        "heroId": 108,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 50,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 61,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 74,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 100,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 71,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 10,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 91,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 41,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441782272": {
+    "matchId": 8441782272,
+    "radiantRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 79,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 77,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 62,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 69,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 16,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 51,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 108,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441784925": {
+    "matchId": 8441784925,
+    "radiantRoles": [
+      {
+        "heroId": 100,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 62,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 28,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 35,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 21,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 74,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441871810": {
+    "matchId": 8441871810,
+    "radiantRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 31,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 43,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 112,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 53,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 23,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 39,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441430405": {
+    "matchId": 8441430405,
+    "radiantRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 91,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 105,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441386974": {
+    "matchId": 8441386974,
+    "radiantRoles": [
+      {
+        "heroId": 27,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 34,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 3,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 41,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441595826": {
+    "matchId": 8441595826,
+    "radiantRoles": [
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 90,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 87,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 79,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441333127": {
+    "matchId": 8441333127,
+    "radiantRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 99,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 77,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 75,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 100,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 137,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441408099": {
+    "matchId": 8441408099,
+    "radiantRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 68,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 36,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 74,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 30,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 63,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 22,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441391446": {
+    "matchId": 8441391446,
+    "radiantRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 108,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 27,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 93,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441314216": {
+    "matchId": 8441314216,
+    "radiantRoles": [
+      {
+        "heroId": 20,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 17,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 108,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441326228": {
+    "matchId": 8441326228,
+    "radiantRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 87,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 89,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441259090": {
+    "matchId": 8441259090,
+    "radiantRoles": [
+      {
+        "heroId": 12,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 119,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 39,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 68,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 42,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 5,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441378523": {
+    "matchId": 8441378523,
+    "radiantRoles": [
+      {
+        "heroId": 67,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 31,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 68,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 56,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 137,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 79,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441211301": {
+    "matchId": 8441211301,
+    "radiantRoles": [
+      {
+        "heroId": 74,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 83,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 3,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 70,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 64,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 135,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 114,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 65,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441325362": {
+    "matchId": 8441325362,
+    "radiantRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 120,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 62,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 10,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 30,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 6,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 36,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 57,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441316691": {
+    "matchId": 8441316691,
+    "radiantRoles": [
+      {
+        "heroId": 123,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 113,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 111,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 136,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 91,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 97,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441150676": {
+    "matchId": 8441150676,
+    "radiantRoles": [
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 12,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 137,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 71,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 23,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441166024": {
+    "matchId": 8441166024,
+    "radiantRoles": [
+      {
+        "heroId": 126,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 119,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 21,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 49,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 111,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 3,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 74,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441019140": {
+    "matchId": 8441019140,
+    "radiantRoles": [
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 109,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 41,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441081845": {
+    "matchId": 8441081845,
+    "radiantRoles": [
+      {
+        "heroId": 6,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 14,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 136,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 59,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 64,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440974206": {
+    "matchId": 8440974206,
+    "radiantRoles": [
+      {
+        "heroId": 16,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 1,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 45,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 19,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 121,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441226752": {
+    "matchId": 8441226752,
+    "radiantRoles": [
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 106,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 69,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 53,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 135,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 28,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441096680": {
+    "matchId": 8441096680,
+    "radiantRoles": [
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 7,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 14,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 67,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 89,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 22,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 29,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440890160": {
+    "matchId": 8440890160,
+    "radiantRoles": [
+      {
+        "heroId": 12,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 85,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 49,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 26,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 126,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 96,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 121,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440865764": {
+    "matchId": 8440865764,
+    "radiantRoles": [
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 64,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 55,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 28,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441197789": {
+    "matchId": 8441197789,
+    "radiantRoles": [
+      {
+        "heroId": 62,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 18,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 65,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 107,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 20,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 75,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440852364": {
+    "matchId": 8440852364,
+    "radiantRoles": [
+      {
+        "heroId": 101,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 70,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 46,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 128,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 105,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 10,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 22,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 110,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440833351": {
+    "matchId": 8440833351,
+    "radiantRoles": [
+      {
+        "heroId": 63,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 48,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 5,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 9,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440810861": {
+    "matchId": 8440810861,
+    "radiantRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 74,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 42,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 8,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 31,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 25,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 104,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 123,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440782506": {
+    "matchId": "8440782506",
+    "error": "HTTP 500: {\"error\":\"Internal Server Error\"}"
+  },
+  "8440922252": {
+    "matchId": 8440922252,
+    "radiantRoles": [
+      {
+        "heroId": 36,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 51,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 17,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 123,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 2,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 102,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 65,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 83,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440861510": {
+    "matchId": 8440861510,
+    "radiantRoles": [
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 27,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 61,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 85,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 101,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440803103": {
+    "matchId": 8440803103,
+    "radiantRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 138,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 43,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 87,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 86,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 98,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441012120": {
+    "matchId": 8441012120,
+    "radiantRoles": [
+      {
+        "heroId": 53,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 100,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 22,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 114,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 7,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 89,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440803803": {
+    "matchId": 8440803803,
+    "radiantRoles": [
+      {
+        "heroId": 65,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 38,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 85,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 45,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 23,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 37,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 87,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440868462": {
+    "matchId": 8440868462,
+    "radiantRoles": [
+      {
+        "heroId": 85,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 94,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 26,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 50,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 65,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 86,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 73,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 39,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 38,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 105,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8441087532": {
+    "matchId": 8441087532,
+    "radiantRoles": [
+      {
+        "heroId": 67,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 83,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 61,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 41,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 78,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 54,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 35,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 129,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 119,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440747279": {
+    "matchId": 8440747279,
+    "radiantRoles": [
+      {
+        "heroId": 85,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 41,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 13,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 87,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 120,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 46,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 65,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 52,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 135,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
+  },
+  "8440751029": {
+    "matchId": 8440751029,
+    "radiantRoles": [
+      {
+        "heroId": 84,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 72,
+        "role": "carry",
+        "lane": 1,
+        "laneRole": 1
+      },
+      {
+        "heroId": 11,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 123,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      },
+      {
+        "heroId": 99,
+        "role": "offlane",
+        "lane": 3,
+        "laneRole": 3
+      }
+    ],
+    "direRoles": [
+      {
+        "heroId": 38,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 85,
+        "role": "carry",
+        "lane": 3,
+        "laneRole": 1
+      },
+      {
+        "heroId": 25,
+        "role": "mid",
+        "lane": 2,
+        "laneRole": 2
+      },
+      {
+        "heroId": 26,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      },
+      {
+        "heroId": 67,
+        "role": "offlane",
+        "lane": 1,
+        "laneRole": 3
+      }
+    ]
   }
 }

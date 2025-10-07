@@ -1,0 +1,60 @@
+# Accuracy Analysis - Visual Summary
+
+
+Delta Threshold Accuracy Progression
+====================================
+
+Delta >= 5       77878 games |   52.79%
+Delta >= 10      52765 games | █████████████  53.59%
+Delta >= 15      32950 games | ██████████████████████  54.14%
+Delta >= 20      19141 games | ██████████████████████████████████████  55.08%
+Delta >= 25      10510 games | █████████████████████████████████████████████████████  55.98%
+Delta >= 30       5424 games | ███████████████████████████████████████████████████████  56.14%
+Delta >= 35       2644 games | ████████████████████████████████████████████████████████████  56.43%
+Delta >= 40       1237 games | ███████████████████████████  54.41%
+
+
+Condition Comparison (Best Thresholds)
+======================================
+
+Delta             5424 games | ████████████████████████████████████████████████████████████  56.14%
+LaneAdv          26279 games | ███  50.74%
+NW20             88116 games | ██████  50.99%
+NW10             83454 games | █████  50.90%
+KDA              11960 games | ██████  50.98%
+D2PT             37873 games |   50.44%
+
+
+## Key Insights
+
+1. **Delta shows clear progression**: Accuracy increases consistently with threshold
+2. **Other conditions plateau near 50%**: No meaningful predictive power
+3. **Best single predictor**: Delta >= 30 (56.14% accuracy, 5,424 games)
+4. **Best balance**: Delta >= 20 (55.08% accuracy, 19,141 games)
+
+## Coverage vs Accuracy
+
+```
+100% │
+     │
+ 80% │ ●
+     │   ●
+ 60% │     ●
+     │       ●
+ 40% │         ●
+     │           ●
+ 20% │             ●
+     │               ● ● ●
+  0% │_________________________________
+     52%      54%      56%    Accuracy
+
+Coverage decreases as accuracy increases (threshold effect)
+```
+
+## Recommendation Matrix
+
+| Priority | Threshold | Use Case |
+|----------|-----------|----------|
+| Maximum Accuracy | Delta >= 30 | High-confidence predictions only |
+| Balanced | Delta >= 20 | General use (recommended) ⭐ |
+| Maximum Coverage | Delta >= 10 | When predictions needed for most games |

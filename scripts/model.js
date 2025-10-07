@@ -57,6 +57,15 @@ function loadCounterData(csPathOrOptions = undefined) {
   const winRatesRaw = context.win_rates || [];
   const updateTime = context.update_time || "";
 
+  // Optional role-based data (may be provided by cs_d2pt.json and/or cs_db.json)
+  const roles = context.heroes_roles || {};
+  const rolesD2pt = context.heroes_roles_d2pt || {};
+  const rolesDbWrKda = context.heroes_roles_db_wrkda || {};
+  const heroesLaneAdv = context.heroes_laneadv || [];
+  const heroesNw10 = context.heroes_nw10 || [];
+  const heroesNw20 = context.heroes_nw20 || [];
+  const heroesD2pt = context.heroes_d2pt || [];
+
   const heroesWr = heroesWrRaw.map((v) => (v == null ? 0 : Number(v)));
 
   // win_rates[i][j] = [ advantagePct, wr_vsPct, matches ]
@@ -71,7 +80,20 @@ function loadCounterData(csPathOrOptions = undefined) {
     })
   );
 
-  return { heroes, heroesBg, heroesWr, winRates, updateTime };
+  return {
+    heroes,
+    heroesBg,
+    heroesWr,
+    winRates,
+    updateTime,
+    roles,
+    rolesD2pt,
+    rolesDbWrKda,
+    heroesLaneAdv,
+    heroesNw10,
+    heroesNw20,
+    heroesD2pt,
+  };
 }
 
 /**

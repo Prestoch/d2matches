@@ -1,0 +1,127 @@
+hero_id,hero_name,role
+0,Abaddon,carry
+1,Alchemist,offlane
+2,Ancient Apparition,softsupport
+3,Anti Mage,offlane
+4,Arc Warden,mid
+5,Axe,mid
+6,Bane,hardsupport
+7,Batrider,mid
+8,Beastmaster,offlane
+9,Bloodseeker,carry
+10,Bounty Hunter,softsupport
+11,Brewmaster,offlane
+12,Bristleback,carry
+13,Broodmother,carry
+14,Centaur Warrunner,offlane
+15,Chaos Knight,offlane
+16,Chen,hardsupport
+17,Clinkz,mid
+18,Clockwerk,softsupport
+19,Crystal Maiden,softsupport
+20,Dark Seer,offlane
+21,Dark Willow,hardsupport
+22,Dawnbreaker,offlane
+23,Dazzle,hardsupport
+24,Death Prophet,offlane
+25,Disruptor,hardsupport
+26,Doom,offlane
+27,Dragon Knight,offlane
+28,Drow Ranger,carry
+29,Earth Spirit,mid
+30,Earthshaker,softsupport
+31,Elder Titan,hardsupport
+32,Ember Spirit,mid
+33,Enchantress,hardsupport
+34,Enigma,offlane
+35,Faceless Void,carry
+36,Grimstroke,hardsupport
+37,Gyrocopter,softsupport
+38,Hoodwink,hardsupport
+39,Huskar,mid
+40,Invoker,hardsupport
+41,Io,hardsupport
+42,Jakiro,mid
+43,Juggernaut,carry
+44,Keeper Of The Light,mid
+45,Kez,carry
+46,Kunkka,offlane
+47,Legion Commander,offlane
+48,Leshrac,mid
+49,Lich,softsupport
+50,Lifestealer,carry
+51,Lina,softsupport
+52,Lion,softsupport
+53,Lone Druid,mid
+54,Luna,carry
+55,Lycan,offlane
+56,Magnus,hardsupport
+57,Marci,mid
+58,Mars,softsupport
+59,Medusa,carry
+60,Meepo,mid
+61,Mirana,softsupport
+62,Monkey King,offlane
+63,Morphling,carry
+64,Muerta,softsupport
+65,Naga Siren,hardsupport
+66,Natures Prophet,carry
+67,Necrophos,carry
+68,Night Stalker,offlane
+69,Nyx Assassin,softsupport
+70,Ogre Magi,hardsupport
+71,Omniknight,offlane
+72,Oracle,hardsupport
+73,Outworld Destroyer,mid
+74,Pangolier,offlane
+75,Phantom Assassin,carry
+76,Phantom Lancer,carry
+77,Phoenix,hardsupport
+78,Primal Beast,mid
+79,Puck,mid
+80,Pudge,offlane
+81,Pugna,hardsupport
+82,Queen Of Pain,mid
+83,Razor,offlane
+84,Riki,softsupport
+85,Ringmaster,hardsupport
+86,Rubick,mid
+87,Sand King,offlane
+88,Shadow Demon,softsupport
+89,Shadow Fiend,carry
+90,Shadow Shaman,softsupport
+91,Silencer,hardsupport
+92,Skywrath Mage,mid
+93,Slardar,offlane
+94,Slark,hardsupport
+95,Snapfire,softsupport
+96,Sniper,softsupport
+97,Spectre,carry
+98,Spirit Breaker,softsupport
+99,Storm Spirit,mid
+100,Sven,carry
+101,Techies,hardsupport
+102,Templar Assassin,mid
+103,Terrorblade,carry
+104,Tidehunter,offlane
+105,Timbersaw,mid
+106,Tinker,softsupport
+107,Tiny,softsupport
+108,Treant Protector,hardsupport
+109,Troll Warlord,carry
+110,Tusk,hardsupport
+111,Underlord,offlane
+112,Undying,hardsupport
+113,Ursa,carry
+114,Vengeful Spirit,offlane
+115,Venomancer,softsupport
+116,Viper,offlane
+117,Visage,offlane
+118,Void Spirit,mid
+119,Warlock,softsupport
+120,Weaver,offlane
+121,Windranger,offlane
+122,Winter Wyvern,softsupport
+123,Witch Doctor,softsupport
+124,Wraith King,carry
+125,Zeus,softsupport

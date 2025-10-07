@@ -48,7 +48,7 @@ function main() {
 
   const { header, rows } = readCsv(srcPath);
   const col = new Map(header.map((h, i) => [h, i]));
-  const data = loadCounterData(path.resolve(__dirname, "../cs.json"));
+  const data = loadCounterData();
   const nameToIndex = buildNameToIndex(data.heroes);
 
   const simpleLines = [];

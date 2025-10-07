@@ -36,7 +36,7 @@ function main() {
     process.exit(1);
   }
 
-  const data = loadCounterData(path.resolve(__dirname, "../cs.json"));
+  const data = loadCounterData();
   const nameToIndex = buildNameToIndex(data.heroes);
   const { header, rows } = readDetailedCsv(detailedPath);
   const col = new Map(header.map((h, i) => [h, i]));

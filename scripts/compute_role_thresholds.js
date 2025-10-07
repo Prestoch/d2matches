@@ -144,7 +144,7 @@ function main() {
   const d2ptThr = Array.from({ length: 10 }, (_, i) => (i + 1) * 500); // 500..5000
   const nw10Thr = Array.from({ length: 25 }, (_, i) => (i + 1) * 200); // 200..5000
   const nw20Thr = Array.from({ length: 20 }, (_, i) => (i + 1) * 500); // 500..10000
-  const laneThr = Array.from({ length: 10 }, (_, i) => (i + 1) * 2); // 2..20
+  const laneThr = Array.from({ length: 30 }, (_, i) => (i + 1) * 2); // 2..60
 
   function initStats(thresholds) {
     const m = new Map();

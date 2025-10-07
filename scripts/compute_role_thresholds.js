@@ -28,6 +28,45 @@ function coerceNumber(x, fallback = 0) {
   return Number.isFinite(n) ? n : fallback;
 }
 
+function pickMostPopularRoleByD2pt(heroIndex, data) {
+  // Prefer D2PT per-role as popularity proxy; fallback to NW20 -> NW10 -> LaneAdv
+  let bestRole = "carry";
+  let bestVal = -Infinity;
+  for (const role of ROLE_KEYS) {
+    const arr = data.rolesD2pt && data.rolesD2pt[role];
+    const v = arr && Array.isArray(arr) ? coerceNumber(arr[heroIndex], -Infinity) : -Infinity;
+    if (v > bestVal) { bestVal = v; bestRole = role; }
+  }
+  if (bestVal > -Infinity) return bestRole;
+  bestVal = -Infinity;
+  for (const role of ROLE_KEYS) {
+    const arr = data.roles && data.roles[role] && data.roles[role].nw20;
+    const v = arr && Array.isArray(arr) ? coerceNumber(arr[heroIndex], -Infinity) : -Infinity;
+    if (v > bestVal) { bestVal = v; bestRole = role; }
+  }
+  if (bestVal > -Infinity) return bestRole;
+  bestVal = -Infinity;
+  for (const role of ROLE_KEYS) {
+    const arr = data.roles && data.roles[role] && data.roles[role].nw10;
+    const v = arr && Array.isArray(arr) ? coerceNumber(arr[heroIndex], -Infinity) : -Infinity;
+    if (v > bestVal) { bestVal = v; bestRole = role; }
+  }
+  if (bestVal > -Infinity) return bestRole;
+  bestVal = -Infinity;
+  for (const role of ROLE_KEYS) {
+    const arr = data.roles && data.roles[role] && data.roles[role].laneadv;
+    const v = arr && Array.isArray(arr) ? coerceNumber(arr[heroIndex], -Infinity) : -Infinity;
+    if (v > bestVal) { bestVal = v; bestRole = role; }
+  }
+  return bestRole;
+}
+
+function buildHeroToRoleMap(data) {
+  const m = new Map();
+  for (let i = 0; i < data.heroes.length; i++) m.set(i, pickMostPopularRoleByD2pt(i, data));
+  return m;
+}
+
 function getRoleFitnessFor(heroIndex, role, data) {
   // Prefer D2PT per-role if available, else NW20, else NW10, else LaneAdv (can be negative)
   const d2ptArr = data.rolesD2pt && data.rolesD2pt[role];
@@ -134,6 +173,7 @@ function main() {
 
   const data = loadCounterData();
   const nameToIndex = buildNameToIndex(data.heroes);
+  const heroToRole = buildHeroToRoleMap(data);
 
   const { header, rows } = readCsv(detailedPath);
   const col = new Map(header.map((h, i) => [h, i]));
@@ -171,11 +211,7 @@ function main() {
     const rIdx = rHeroes.map((h) => nameToIndex.get(h)).filter((x) => x !== undefined);
     if (dIdx.length !== 5 || rIdx.length !== 5) continue;
 
-    // Compute a per-team role assignment (one of each role) maximizing fitness
-    const roleMapR = bestRoleAssignment(rIdx, data);
-    const roleMapD = bestRoleAssignment(dIdx, data);
-
-    // Sum metrics per team using assigned roles
+    // Sum metrics per team using per-hero most-popular role mapping
     let sumKdaR = 0, sumKdaD = 0;
     let sumD2ptr = 0, sumD2ptd = 0;
     let sumNw10r = 0, sumNw10d = 0;
@@ -183,7 +219,7 @@ function main() {
     let sumLaneR = 0, sumLaneD = 0;
 
     for (const idx of rIdx) {
-      const role = roleMapR.get(idx) || "carry";
+      const role = heroToRole.get(idx) || "carry";
       sumKdaR += getKdaFor(idx, role, data);
       sumD2ptr += getD2ptFor(idx, role, data);
       sumNw10r += getNw10For(idx, role, data);
@@ -191,7 +227,7 @@ function main() {
       sumLaneR += getLaneAdvFor(idx, role, data);
     }
     for (const idx of dIdx) {
-      const role = roleMapD.get(idx) || "carry";
+      const role = heroToRole.get(idx) || "carry";
       sumKdaD += getKdaFor(idx, role, data);
       sumD2ptd += getD2ptFor(idx, role, data);
       sumNw10d += getNw10For(idx, role, data);

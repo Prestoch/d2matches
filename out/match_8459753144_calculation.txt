@@ -1,0 +1,201 @@
+Loading data...
+
+====================================================================================================
+MATCH ID: 8459753144
+====================================================================================================
+Winner: RADIANT
+
+Radiant Heroes: Lycan, Naga Siren, Meepo, Slardar, Hoodwink
+Dire Heroes: Spirit Breaker, Phantom Assassin, Tusk, Sniper, Snapfire
+
+====================================================================================================
+ROLE ASSIGNMENTS (based on D2PT rating)
+====================================================================================================
+
+RADIANT:
+  Lycan                     -> carry        (D2PT: 0)
+  Naga Siren                -> hardsupport  (D2PT: 2997)
+  Meepo                     -> mid          (D2PT: 3101)
+  Slardar                   -> offlane      (D2PT: 3061)
+  Hoodwink                  -> softsupport  (D2PT: 2860)
+
+DIRE:
+  Spirit Breaker            -> softsupport  (D2PT: 3322)
+  Phantom Assassin          -> mid          (D2PT: 0)
+  Tusk                      -> offlane      (D2PT: 3026)
+  Sniper                    -> carry        (D2PT: 2981)
+  Snapfire                  -> hardsupport  (D2PT: 2995)
+
+====================================================================================================
+RADIANT TEAM - DETAILED STATS
+====================================================================================================
+
+Lycan (carry):
+  Hero Index: 55
+  WR: 45.74
+  KDA: 3.46
+  D2PT: 0
+  NW10: 3988
+  NW20: 9632
+  LaneAdv: -1.40
+  Advantage vs Dire: -1.93
+    Spirit Breaker: -2.44, Phantom Assassin: -2.02, Tusk: -0.43, Sniper: 1.63, Snapfire: 1.33
+
+Naga Siren (hardsupport):
+  Hero Index: 65
+  WR: 44.71
+  KDA: 2.59
+  D2PT: 2997
+  NW10: 1945
+  NW20: 4672
+  LaneAdv: -3.60
+  Advantage vs Dire: 3.38
+    Spirit Breaker: 1.81, Phantom Assassin: 0.01, Tusk: 3.23, Sniper: 0.65, Snapfire: -2.32
+
+Meepo (mid):
+  Hero Index: 60
+  WR: 56.14
+  KDA: 2.92
+  D2PT: 3101
+  NW10: 4394
+  NW20: 10863
+  LaneAdv: 1.00
+  Advantage vs Dire: -1.52
+    Spirit Breaker: 0.75, Phantom Assassin: -0.64, Tusk: -0.62, Sniper: 0.34, Snapfire: -1.34
+
+Slardar (offlane):
+  Hero Index: 93
+  WR: 53.00
+  KDA: 2.70
+  D2PT: 3061
+  NW10: 3718
+  NW20: 8229
+  LaneAdv: -2.90
+  Advantage vs Dire: -0.91
+    Spirit Breaker: 0.05, Phantom Assassin: -0.31, Tusk: -0.48, Sniper: -1.20, Snapfire: 1.04
+
+Hoodwink (softsupport):
+  Hero Index: 38
+  WR: 49.18
+  KDA: 3.05
+  D2PT: 2860
+  NW10: 2230
+  NW20: 5173
+  LaneAdv: 0.30
+  Advantage vs Dire: -1.38
+    Spirit Breaker: -1.30, Phantom Assassin: -0.56, Tusk: 0.67, Sniper: -0.10, Snapfire: -0.09
+
+----------------------------------------------------------------------------------------------------
+RADIANT TOTALS:
+  WR Sum: 248.77
+  Advantage Sum: -2.36
+  KDA Sum: 14.72
+  D2PT Sum: 12019
+  NW10 Sum: 16275
+  NW20 Sum: 38569
+  LaneAdv Sum: -6.60
+
+====================================================================================================
+DIRE TEAM - DETAILED STATS
+====================================================================================================
+
+Spirit Breaker (softsupport):
+  Hero Index: 98
+  WR: 53.31
+  KDA: 2.90
+  D2PT: 3322
+  NW10: 2365
+  NW20: 5421
+  LaneAdv: -0.80
+  Advantage vs Radiant: 1.29
+    Lycan: 2.78, Naga Siren: -1.58, Meepo: -1.15, Slardar: -0.07, Hoodwink: 1.31
+
+Phantom Assassin (mid):
+  Hero Index: 75
+  WR: 44.97
+  KDA: 2.25
+  D2PT: 0
+  NW10: 3832
+  NW20: 7823
+  LaneAdv: -6.80
+  Advantage vs Radiant: 2.55
+    Lycan: 1.97, Naga Siren: -0.07, Meepo: -0.06, Slardar: 0.16, Hoodwink: 0.56
+
+Tusk (offlane):
+  Hero Index: 110
+  WR: 44.72
+  KDA: 2.51
+  D2PT: 3026
+  NW10: 3767
+  NW20: 7923
+  LaneAdv: 1.60
+  Advantage vs Radiant: -2.33
+    Lycan: 0.41, Naga Siren: -3.40, Meepo: 0.42, Slardar: 0.76, Hoodwink: -0.52
+
+Sniper (carry):
+  Hero Index: 96
+  WR: 46.12
+  KDA: 3.40
+  D2PT: 2981
+  NW10: 4432
+  NW20: 10467
+  LaneAdv: 6.70
+  Advantage vs Radiant: -3.46
+    Lycan: -2.18, Naga Siren: -0.50, Meepo: -1.67, Slardar: 0.76, Hoodwink: 0.13
+
+Snapfire (hardsupport):
+  Hero Index: 95
+  WR: 50.63
+  KDA: 3.00
+  D2PT: 2995
+  NW10: 2205
+  NW20: 5305
+  LaneAdv: 2.70
+  Advantage vs Radiant: 1.42
+    Lycan: -1.44, Naga Siren: 2.92, Meepo: 0.99, Slardar: -1.19, Hoodwink: 0.13
+
+----------------------------------------------------------------------------------------------------
+DIRE TOTALS:
+  WR Sum: 239.75
+  Advantage Sum: -0.54
+  KDA Sum: 14.06
+  D2PT Sum: 12324
+  NW10 Sum: 16601
+  NW20 Sum: 36939
+  LaneAdv Sum: 3.40
+
+====================================================================================================
+DELTAS (Radiant - Dire)
+====================================================================================================
+
+WR+Advantage Delta: 248.77 + -2.36 - (239.75 + -0.54) = 7.20
+  Prediction: RADIANT wins
+  Actual: RADIANT wins
+  Result: ✓ CORRECT
+
+KDA Delta: 14.72 - 14.06 = 0.66
+  Prediction: RADIANT wins
+  Actual: RADIANT wins
+  Result: ✓ CORRECT
+
+D2PT Delta: 12019 - 12324 = -305
+  Prediction: DIRE wins
+  Actual: RADIANT wins
+  Result: ✗ WRONG
+
+NW10 Delta: 16275 - 16601 = -326
+  Prediction: DIRE wins
+  Actual: RADIANT wins
+  Result: ✗ WRONG
+
+NW20 Delta: 38569 - 36939 = 1630
+  Prediction: RADIANT wins
+  Actual: RADIANT wins
+  Result: ✓ CORRECT
+
+LaneAdv Delta: -6.60 - 3.40 = -10.00
+  Prediction: DIRE wins
+  Actual: RADIANT wins
+  Result: ✗ WRONG
+
+====================================================================================================

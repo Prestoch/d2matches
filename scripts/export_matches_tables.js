@@ -39,7 +39,7 @@ function main() {
   const { header, rows } = readCsv(detailedPath);
   const col = new Map(header.map((h, i) => [h, i]));
 
-  const data = loadCounterData(path.resolve(__dirname, "../cs.json"));
+  const data = loadCounterData();
   const nameToIndex = buildNameToIndexMap(data.heroes);
 
   // File 1: pipe-delimited without per-hero advantages

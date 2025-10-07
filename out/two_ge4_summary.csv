@@ -1,0 +1,3 @@
+condition,games,accuracy
+radiant_two_ge4,9245,0.5458
+dire_two_ge4,9432,0.5443

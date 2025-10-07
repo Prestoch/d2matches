@@ -5,24 +5,66 @@ const path = require("path");
 const vm = require("vm");
 
 /**
- * Loads the cs.json data file (which is actually a JS snippet) into a sandbox
- * and returns a structured object containing heroes, heroes_bg, heroes_wr,
- * win_rates, and update_time. Numbers are parsed as numbers where applicable.
+ * Loads counter data from config files into a sandbox and returns a structured object.
+ *
+ * Backwards compatibility:
+ * - Legacy single file: cs.json (JS snippet)
+ * - New split config: cs_db.json (+ optional cs_d2pt.json)
+ *
+ * Accepts either a string path (legacy) or an options object:
+ *   loadCounterData({ db: ".../cs_db.json", d2pt: ".../cs_d2pt.json" })
  */
-function loadCounterData(csJsonPath = path.resolve(__dirname, "../cs.json")) {
-  const fileContent = fs.readFileSync(csJsonPath, "utf8");
+function loadCounterData(csPathOrOptions = undefined) {
+  const baseDir = path.resolve(__dirname, "../");
+
+  const filesToLoad = [];
+  if (typeof csPathOrOptions === "string") {
+    if (fs.existsSync(csPathOrOptions)) filesToLoad.push(csPathOrOptions);
+  } else if (csPathOrOptions && typeof csPathOrOptions === "object") {
+    const { db, d2pt } = csPathOrOptions;
+    if (db && fs.existsSync(db)) filesToLoad.push(db);
+    if (d2pt && fs.existsSync(d2pt)) filesToLoad.push(d2pt);
+  }
+
+  if (filesToLoad.length === 0) {
+    const dbDefault = path.join(baseDir, "cs_db.json");
+    const d2ptDefault = path.join(baseDir, "cs_d2pt.json");
+    const legacy = path.join(baseDir, "cs.json");
+    if (fs.existsSync(dbDefault)) filesToLoad.push(dbDefault);
+    if (fs.existsSync(d2ptDefault)) filesToLoad.push(d2ptDefault);
+    if (filesToLoad.length === 0 && fs.existsSync(legacy)) filesToLoad.push(legacy);
+  }
+
+  if (filesToLoad.length === 0) {
+    throw new Error(
+      "No config files found. Expected cs_db.json/cs_d2pt.json or legacy cs.json"
+    );
+  }
 
   const context = Object.create(null);
   // Provide minimal globals to avoid ReferenceErrors
   context.console = console;
   vm.createContext(context);
-  vm.runInContext(fileContent, context, { filename: "cs.json" });
+
+  for (const filePath of filesToLoad) {
+    const fileContent = fs.readFileSync(filePath, "utf8");
+    vm.runInContext(fileContent, context, { filename: path.basename(filePath) });
+  }
 
   const heroes = context.heroes || [];
   const heroesBg = context.heroes_bg || [];
   const heroesWrRaw = context.heroes_wr || [];
   const winRatesRaw = context.win_rates || [];
   const updateTime = context.update_time || "";
+
+  // Optional role-based data (may be provided by cs_d2pt.json and/or cs_db.json)
+  const roles = context.heroes_roles || {};
+  const rolesD2pt = context.heroes_roles_d2pt || {};
+  const rolesDbWrKda = context.heroes_roles_db_wrkda || {};
+  const heroesLaneAdv = context.heroes_laneadv || [];
+  const heroesNw10 = context.heroes_nw10 || [];
+  const heroesNw20 = context.heroes_nw20 || [];
+  const heroesD2pt = context.heroes_d2pt || [];
 
   const heroesWr = heroesWrRaw.map((v) => (v == null ? 0 : Number(v)));
 
@@ -38,7 +80,20 @@ function loadCounterData(csJsonPath = path.resolve(__dirname, "../cs.json")) {
     })
   );
 
-  return { heroes, heroesBg, heroesWr, winRates, updateTime };
+  return {
+    heroes,
+    heroesBg,
+    heroesWr,
+    winRates,
+    updateTime,
+    roles,
+    rolesD2pt,
+    rolesDbWrKda,
+    heroesLaneAdv,
+    heroesNw10,
+    heroesNw20,
+    heroesD2pt,
+  };
 }
 
 /**

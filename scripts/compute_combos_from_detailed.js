@@ -28,7 +28,7 @@ function main() {
   const outDir = path.resolve(__dirname, "../out");
   const detailedPath = path.join(outDir, "matches_detailed.csv");
   const { rows, colIdx } = readDetailedCsv(detailedPath);
-  const data = loadCounterData(path.resolve(__dirname, "../cs.json"));
+  const data = loadCounterData();
   const nameToIndex = buildNameToIndex(data.heroes);
 
   const agg = new Map();

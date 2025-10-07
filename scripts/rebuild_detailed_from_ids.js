@@ -112,7 +112,7 @@ async function main(){
   const detailedCsv = path.join(outDir, "matches_detailed.csv");
   if (!fs.existsSync(matchesCsv)) throw new Error("out/matches.csv not found");
 
-  const data = loadCounterData(path.resolve(__dirname, "../cs.json"));
+  const data = loadCounterData();
   // Build OpenDota hero id to index using constants
   const constants = await getJson(`${OPEN_DOTA_BASE}/constants/heroes`);
   const idToIndex = new Map();

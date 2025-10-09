@@ -1,0 +1,18 @@
+================================================================================
+FETCHING MATCH POSITION DATA FROM OPENDOTA
+================================================================================
+API Key: 17a1f63b...
+Rate Limit: 1100 calls/minute (~55ms between calls)
+
+Loading existing cache...
+Cache loaded: 1000 matches
+
+Reading match IDs from matches_detailed.csv...
+Total matches: 105928
+Already cached: 1000
+Need to fetch: 104928
+
+Starting fetch process...
+Estimated time: ~97 minutes
+
+Progress: 100/104928 (0.1%) | Rate: 295/min | ETA: 355.3min | Fetched: 100, Errors: 0, NoData: 0

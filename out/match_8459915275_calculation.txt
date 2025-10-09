@@ -1,0 +1,201 @@
+Loading data...
+
+====================================================================================================
+MATCH ID: 8459915275
+====================================================================================================
+Winner: DIRE
+
+Radiant Heroes: Chen, Troll Warlord, Earthshaker, Doom, Snapfire
+Dire Heroes: Anti Mage, Enigma, Queen Of Pain, Monkey King, Oracle
+
+====================================================================================================
+ROLE ASSIGNMENTS (based on D2PT rating)
+====================================================================================================
+
+RADIANT:
+  Chen                      -> carry        (D2PT: 0)
+  Troll Warlord             -> mid          (D2PT: 0)
+  Earthshaker               -> softsupport  (D2PT: 3130)
+  Doom                      -> offlane      (D2PT: 2946)
+  Snapfire                  -> hardsupport  (D2PT: 2995)
+
+DIRE:
+  Anti Mage                 -> carry        (D2PT: 2978)
+  Enigma                    -> offlane      (D2PT: 3047)
+  Queen Of Pain             -> mid          (D2PT: 3063)
+  Monkey King               -> softsupport  (D2PT: 2923)
+  Oracle                    -> hardsupport  (D2PT: 3094)
+
+====================================================================================================
+RADIANT TEAM - DETAILED STATS
+====================================================================================================
+
+Chen (carry):
+  Hero Index: 16
+  WR: 37.73
+  KDA: 2.16
+  D2PT: 0
+  NW10: 0
+  NW20: 0
+  LaneAdv: 0.00
+  Advantage vs Dire: -5.36
+    Anti Mage: -2.17, Enigma: -1.46, Queen Of Pain: -0.13, Monkey King: -2.80, Oracle: 1.21
+
+Troll Warlord (mid):
+  Hero Index: 109
+  WR: 49.06
+  KDA: 2.09
+  D2PT: 0
+  NW10: 4404
+  NW20: 9814
+  LaneAdv: 7.10
+  Advantage vs Dire: 2.99
+    Anti Mage: 3.85, Enigma: -0.30, Queen Of Pain: 0.21, Monkey King: 0.13, Oracle: -0.90
+
+Earthshaker (softsupport):
+  Hero Index: 30
+  WR: 52.53
+  KDA: 2.69
+  D2PT: 3130
+  NW10: 2196
+  NW20: 5454
+  LaneAdv: -5.10
+  Advantage vs Dire: 3.62
+    Anti Mage: 2.82, Enigma: 1.36, Queen Of Pain: -0.74, Monkey King: -0.50, Oracle: 0.68
+
+Doom (offlane):
+  Hero Index: 26
+  WR: 42.10
+  KDA: 2.17
+  D2PT: 2946
+  NW10: 3854
+  NW20: 9166
+  LaneAdv: -3.50
+  Advantage vs Dire: 1.29
+    Anti Mage: 0.14, Enigma: -1.34, Queen Of Pain: 0.51, Monkey King: 0.66, Oracle: 1.31
+
+Snapfire (hardsupport):
+  Hero Index: 95
+  WR: 50.63
+  KDA: 3.00
+  D2PT: 2995
+  NW10: 2205
+  NW20: 5305
+  LaneAdv: 2.70
+  Advantage vs Dire: -1.50
+    Anti Mage: 0.12, Enigma: -0.72, Queen Of Pain: -0.33, Monkey King: -0.22, Oracle: -0.36
+
+----------------------------------------------------------------------------------------------------
+RADIANT TOTALS:
+  WR Sum: 232.05
+  Advantage Sum: 1.04
+  KDA Sum: 12.11
+  D2PT Sum: 9071
+  NW10 Sum: 12659
+  NW20 Sum: 29739
+  LaneAdv Sum: 1.20
+
+====================================================================================================
+DIRE TEAM - DETAILED STATS
+====================================================================================================
+
+Anti Mage (carry):
+  Hero Index: 3
+  WR: 52.01
+  KDA: 3.28
+  D2PT: 2978
+  NW10: 4060
+  NW20: 10063
+  LaneAdv: 2.10
+  Advantage vs Radiant: -2.14
+    Chen: 3.45, Troll Warlord: -4.29, Earthshaker: -2.52, Doom: 1.24, Snapfire: -0.03
+
+Enigma (offlane):
+  Hero Index: 34
+  WR: 50.91
+  KDA: 2.57
+  D2PT: 3047
+  NW10: 4170
+  NW20: 9133
+  LaneAdv: 1.20
+  Advantage vs Radiant: 3.09
+    Chen: 1.56, Troll Warlord: 0.31, Earthshaker: -0.67, Doom: 1.26, Snapfire: 0.63
+
+Queen Of Pain (mid):
+  Hero Index: 82
+  WR: 50.49
+  KDA: 3.74
+  D2PT: 3063
+  NW10: 3997
+  NW20: 9043
+  LaneAdv: 1.90
+  Advantage vs Radiant: 2.45
+    Chen: 0.91, Troll Warlord: -0.33, Earthshaker: 0.85, Doom: 0.64, Snapfire: 0.38
+
+Monkey King (softsupport):
+  Hero Index: 62
+  WR: 39.57
+  KDA: 1.80
+  D2PT: 2923
+  NW10: 2316
+  NW20: 5416
+  LaneAdv: -1.80
+  Advantage vs Radiant: 4.88
+    Chen: 2.81, Troll Warlord: -0.31, Earthshaker: 2.48, Doom: -0.69, Snapfire: 0.58
+
+Oracle (hardsupport):
+  Hero Index: 72
+  WR: 53.04
+  KDA: 2.77
+  D2PT: 3094
+  NW10: 2078
+  NW20: 4513
+  LaneAdv: 0.40
+  Advantage vs Radiant: -2.00
+    Chen: -0.98, Troll Warlord: 0.85, Earthshaker: -0.73, Doom: -1.24, Snapfire: 0.09
+
+----------------------------------------------------------------------------------------------------
+DIRE TOTALS:
+  WR Sum: 246.02
+  Advantage Sum: 6.27
+  KDA Sum: 14.16
+  D2PT Sum: 15105
+  NW10 Sum: 16621
+  NW20 Sum: 38168
+  LaneAdv Sum: 3.80
+
+====================================================================================================
+DELTAS (Radiant - Dire)
+====================================================================================================
+
+WR+Advantage Delta: 232.05 + 1.04 - (246.02 + 6.27) = -19.20
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+KDA Delta: 12.11 - 14.16 = -2.05
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+D2PT Delta: 9071 - 15105 = -6034
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+NW10 Delta: 12659 - 16621 = -3962
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+NW20 Delta: 29739 - 38168 = -8429
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+LaneAdv Delta: 1.20 - 3.80 = -2.60
+  Prediction: DIRE wins
+  Actual: DIRE wins
+  Result: ✓ CORRECT
+
+====================================================================================================
